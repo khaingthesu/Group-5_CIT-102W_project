@@ -1,0 +1,14 @@
+/*CSS reset*/
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header img{
+    float: left;
+    width: 200x;
+    height: 180px;
+    border-radius: 40px;
+    align-items: left;
+    padding: 30px;
+}
