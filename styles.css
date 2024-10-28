@@ -12,3 +12,29 @@ header img{
     align-items: left;
     padding: 30px;
 }
+nav{
+    float: right;
+    width: 80%;
+    padding: 2em 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0em 10em;
+    text-align: right;
+    margin: 0 4em 0 4em;
+}
+nav li{
+    display: inline-block;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-style: inherit;
+    
+}
+nav li a{
+    display: block;
+    color: rgb(21, 21, 22);
+    text-align: center;
+    padding: 2em 0 0 1em;
+    text-decoration: none;
+}
