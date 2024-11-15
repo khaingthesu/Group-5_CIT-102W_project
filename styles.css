@@ -1,0 +1,57 @@
+/*CSS reset*/
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+header{
+    float: left;
+    width: 10%;
+    padding: 2em 2em 1em 2.5em;
+    font-weight: 600;
+}
+header img{
+    float: left;
+    width: 160%;
+    height: 50%;
+    margin: 0 auto;
+}
+.round{
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px black;
+}
+.title{
+    text-align: left;
+    padding: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 4em;
+    font-size: 16px;
+    
+}
+nav{
+    float: right;
+    width: 70%;
+    margin: 4em 1em 0 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0em 4em;
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    font-size: 1.6em;
+    font-family: 'Lato', serif;
+    font-weight: bold;
+    border-style: inherit;
+}
+nav li a{
+    display: block;
+    color: rgb(28, 28, 30);
+    text-align: center;
+    padding: 2em 0 0 1em;
+    text-decoration: solid;
+}
+/*------------------------------------------------------------------------------------------------------------------*/
