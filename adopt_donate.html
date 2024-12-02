@@ -41,6 +41,47 @@
             </nav>
 <!--------------------------------------------------------------------------------------------------------->
             <main>
+                <div id="form">
+		
+			<h2>Looking to make a donation? Use this form to give a monetary donation!.</h2>
+            <p>Please note, all personal information on the form is optional! Leaving your email and/or phone number signs you up for our promotional messages.</p>
+                    
+			<form clas="form-grid"><!-- Start Form -->
+			
+				<fieldset>
+					<legend>Donator Information</legend>
+					<label for ="fName">First Name:</label>
+					<input type="text" name="fName" id="fName" optional>
+					
+					<label for="lName">Last Name:</label>
+					<input type="text" name="lName" id="lName" optional>
+					
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" optional>
+					
+					<label for="phone">Phone:</label>
+					<input type="tel" id="phone" name="phone" optional>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Payment Information</legend>
+					<label for ="fCardNumber">Card Number:</label>
+					<input type="text" name="fCardNumber" id="fCardNumber" required>
+					
+					<label for="lExpiration">Expiration Date:</label>
+					<input type="text" name="lExpiration" id="lExpiration" required>
+					
+					<label for="SecurityCode">Security Code:</label>
+					<input type="text" name="Security Code" id="Security Code" required>
+					
+					<label for="BillingAddress">Billing Address:</label>
+					<input type="text" id="BillingAddress" name="Billing Address" required>
+				</fieldset>
+
+				
+				<input type="submit" id="submit" value="Submit" class="btn">
+						
+			</form>
 
             </main>
 <!--------------------------------------------------------------------------------------------------------->
