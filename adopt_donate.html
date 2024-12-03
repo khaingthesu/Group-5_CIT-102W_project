@@ -27,81 +27,82 @@
         <div id = container>
             <header>
                 <a href="index.html"><img src="images/logo.png" alt="logo" class="round"></a>
-                <h1 class=title>Paws Haven</h1>
+                <h1>Paws Haven</h1>
             </header>
 <!--------------------------------------------------------------------------------------------------------->
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="adopt_donate.html">ADOPT/DONATE</a></li>
-                    <li><a href="volunteer.html">VOLUNTEER</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
+    <nav>
+         <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="adopt_donate.html">ADOPT/DONATE</a></li>
+            <li><a href="volunteer.html">VOLUNTEER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
 <!--------------------------------------------------------------------------------------------------------->
-            <main>
-           	<main id="content">
+ 	<main>
+ 		<div class="mission">
+                    <img src= "images/group of pets copy.jpg" alt="group of pets">
+        </div>
+        <div class="donations">
 	
-			<section id="donations">
+		<section id= container>
 		
-				<h1>Donations</h1>
-				<img class="equip" src="images/donate.jpeg" alt="Dog urging people to make donations" class="round">
-				<p>Here at Paws Haven we work hard to get all of our pets adopted and care for them to the best of our ability while they are with us. Any donations you are willing to make to help make these animals happy and healthy are greatly appreciated. We accept monetary donations here on our website and donations of blankets, beds, and toys on location! Thanks for your help and check out our volunteer page to get even more involved!</p>
+			<h1>Donations</h1>
+			<p>Here at Paws Haven we work hard to get all of our pets adopted and care for them to the best of our ability while they are with us. Any donations you are willing to make to help make these animals happy and healthy are greatly appreciated. We accept monetary donations here on our website and donations of blankets, beds, and toys on location! Thanks for your help and check out our volunteer page to get even more involved!</p>
 				
-				<div id="form">
+			<div id="form">
                 
-				<form clas="form-grid"><!-- Start Form -->
+			<form class="form-grid"><!-- Start Form -->
 			
-				<fieldset>
-					<legend>Make a Donation!</legend>
-					<p>Please note, all personal information on the form is optional! Leaving your email and/or phone number signs you up for our promotional messages.</p>
+			<fieldset>
+				<legend>Make a Donation!</legend>
+				<p>Please note, all personal information on the form is optional! Leaving your email and/or phone number signs you up for our promotional messages.</p>
 					
-					<div>
-						<label for ="fName">First Name:</label>
-						<input type="text" name="fName" id="fName" optional>
+				<div>
+					<label for ="fName">First Name:</label>
+					<input type="text" name="fName" id="fName" optional>
 					
-						<label for="lName">Last Name:</label>
-						<input type="text" name="lName" id="lName" optional>
+					<label for="lName">Last Name:</label>
+					<input type="text" name="lName" id="lName" optional>
 					
-						<label for="email">Email:</label>
-						<input type="email" name="email" id="email" optional>
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" optional>
 					
-						<label for="phone">Phone:</label>
-						<input type="tel" id="phone" name="phone" optional>
-					</div>	
+					<label for="phone">Phone:</label>
+					<input type="tel" id="phone" name="phone" optional>
+				</div>	
+			
+				<div>
+					<label for ="CardNumber">Card Number:</label>
+					<input type="text" name="CardNumber" id="CardNumber" required>
 					
-					<div>
-						<label for ="CardNumber">Card Number:</label>
-						<input type="text" name="CardNumber" id="CardNumber" required>
+					<label for="Expiration">Expiration Date:</label>
+					<input type="text" name="Expiration" id="Expiration" required>
 					
-						<label for="Expiration">Expiration Date:</label>
-						<input type="text" name="Expiration" id="Expiration" required>
+					<label for="SecurityCode">Security Code:</label>
+					<input type="text" name="Security Code" id="Security Code" required>
 					
-						<label for="SecurityCode">Security Code:</label>
-						<input type="text" name="Security Code" id="Security Code" required>
+					<label for="BillingAddress">Billing Address:</label>
+					<input type="text" id="BillingAddress" name="Billing Address" required>
+				</div>
 					
-						<label for="BillingAddress">Billing Address:</label>
-						<input type="text" id="BillingAddress" name="Billing Address" required>
-					</div>
-					
-					<input type="submit" id="submit" value="Submit" class="btn">
+				<input type="submit" id="submit" value="Submit" class="btn">
 
-				</fieldset>
+			</fieldset>
 						
 			</form>
-			
+			</div>		
 		</section>
 		
 		<section id="adoptions">
-			
-			<h1>Adoption Application</h1>
-			<img class="equip" src="images/adopt.jpg" alt="Dog urging people to adopt" class="round">
+		
+			<h2>Adoptions</h2>
 			<p>Adopting a pet is a big commitment. If you are ready to take this step, fill out this simple form and we will contact you about adopting the next member of your family!</p>
 			
 			<div id="form">
                 
-				<form clas="form-grid"><!-- Start Form -->
+				<form class="form-grid"><!-- Start Form -->
 			
 				<fieldset>
 					<legend>Start Your Adoption Journey!</legend>
@@ -140,7 +141,8 @@
 					<div>
 						<p>If yes, what kind of pets do you have and how many?</p>
 						<label for ="OtherPets">Other Pets:</label>
-						<input type="text" name="Other Pets" id="Other Pets" optional>
+						<textarea id="OterPets" name="OtherPets" rows="5" cols="35"></textarea>					
+						
 					</div>	
 					
 					<div>
