@@ -156,6 +156,20 @@ nav li a{
         -webkit-animation-duration: 7s;
         animation-duration: 7s;
     }
+
+    form {
+        width: auto;
+    }
+    
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px; 
+    }
+    
+    .btn {
+        grid-column: 1 / span 3;
+    }
 /*-------------------------------------------------------------------------------------------------------------------*/
 footer {
     clear: both;
