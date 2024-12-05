@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
     <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,109 +10,48 @@
             <link rel="stylesheet" href="css/stylesprint.css" media="print">
             <!--logo icon for the tab bar-->
             <link rel="icon_ori" href="images/icon.png">
-            <link rel="icon" type="img/png" size="32x32" href="images/icon_32.png">
-            <link rel="icon_180" type="img/png" size="180x180" href="images/icon_apple.png">
-            <link rel="icon_192" type="img/png" size="192x192" href="images/icon_android.png">
+            <link rel="icon" type="img/png" sizes="32x32" href="images/icon_32.png">
+            <link rel="icon_180" type="img/png" sizes="180x180" href="images/icon_apple.png">
+            <link rel="icon_192" type="img/png" sizes="192x192" href="images/icon_android.png">
             <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
- 
-    </head>
-	
-	<style>
-	
-		header {
-		padding-top: 100px;
-		}
+    <style>
 	
 		body {
 			background-image: url(images/background.png);
             background-size: cover;
         }
 		
-		main {
-		padding-top: 100px;
-		}
-		
-		.center {
-			display: block;
-
-				margin-left: 1000px;
-				margin-top: -645px;
-				margin-bottom: 100px;
-				width: 40%;
-		}
-        .container {
-            max-width: 700px;
-            margin: 100px;
-            padding: 20px;
-            background: white;
-			background-size: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-		
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-		
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-		
-        label {
-            margin: 10px 0 5px;
-            font-weight: bold;
-        }
-		
-        input, select, textarea {
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-		
-        button {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-		
-        button:hover {
-            background-color: #218838;
-        }
 		
     </style>
-<!--------------------------------------------------------------------------------------------------------->  
+    </head>
+<!--------------------------------------------------------------------------------------------------------->
+
+    <body>
+        <div id = container>
             <header>
                 <a href="index.html"><img src="images/logo.png" alt="logo" class="round"></a>
                 <h1>Paws Haven</h1>
             </header>
-            
 <!--------------------------------------------------------------------------------------------------------->
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="adopt_donate.html">ADOPT/DONATE</a></li>
-                    <li><a href="volunteer.html">VOLUNTEER</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="adopt_donate.html">ADOPT/DONATE</a></li>
+                <li><a href="volunteer.html">VOLUNTEER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
 <!--------------------------------------------------------------------------------------------------------->
-<body>
             <main>
-
-				<div class="container">
+                <img src="images/voluteer.jpg" alt="picture of volunteers" width="25%" class="center">
+                <div class="volunteer">
 					<h1>Volunteer Sign-Up</h1>
+                </div>
+
+                <div>
 				<fieldset>
 					<form action="/submit" method="POST">
-
 						<label for="name">Full Name</label>
 						<input type="text" id="name" name="name" placeholder="Your name" required>
 
@@ -131,46 +69,40 @@
 							<option value="Cleaning">Cleanig</option>
 							<option value="Feeding">Feeding</option>
 						</select>
-
-						<label for="availability">Availability</label>
-						<label for="availability"><input type="checkbox" name="availability" id="Availability" value="Monday">Monday</>
-						<label for="availability"><input type="checkbox" name="availability" id="Availability" value="Tuesday">Tuesday</>
-						<label for="availability"><input type="checkbox" name="availability" id="Availability" value="Wednesday">Wednesday</>
-						<label for="availability"><input type="checkbox" name="availability" id="Availability" value="Thursday">Thursday</>
-						<label for="availability"><input type="checkbox" name="availability" id="Availability" value="Friday">Friday</>
-						<label for="availability"><input type="checkbox" name="availability" id="Availability" value="Saturday">Saturday</>
-						<label for="availability"><input type="checkbox" name="availability" id="Availability" value="Sunday">Sunday</>
+                        <h2>Choose Your Availability</h2>
+						<div class="availability">
+                            <label><input type="checkbox" name="availability" value="Monday"> Monday</label>
+                            <label><input type="checkbox" name="availability" value="Tuesday"> Tuesday</label>
+                            <label><input type="checkbox" name="availability" value="Wednesday"> Wednesday</label>
+                            <label><input type="checkbox" name="availability" value="Thursday"> Thursday</label>
+                            <label><input type="checkbox" name="availability" value="Friday"> Friday</label>
+                            <label><input type="checkbox" name="availability" value="Saturday"> Saturday</label>
+                            <label><input type="checkbox" name="availability" value="Sunday"> Sunday</label>
+                        </div>
 					
 					<button type="submit">Sign Up</button>
-					
-					</div>
-
-
-					</form>
-					
-				</fieldset>
-							<img src="images/voluteer.jpg" alt="picture of volunteers" width="25%" class="center">	
-				</div>
+                    </form>
+                    </fieldset>
+                </div>				
             </main>
-	</body>
 <!--------------------------------------------------------------------------------------------------------->
             
-            <footer>
-                <div class="copyright">
-                    <p>&copy; Copyright 2021. All Rights Reserved.</p>
-                    <p><a href="mailto: info@pawshaven.org">info@pawshaven.org</a></p>
-                    <p1>Created by: 
-                        Tech for Tails
-                        Members: Anaya, Curtis, Hannah, Greg, Khaing
-                    </p1>
-                </div>
-        
-                <div class="social">
-                    <a href="https://www.facebook.com/pawshaven" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
-                    <a href="https://www.instagram.com/pawshaven" target="_blank"><img src="images/instagram-logo.png" alt="black and white instagram logo"></a>
-                    <a href="https://twitter.com/pawshaven" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
-                </div>
-            </footer>
+        <footer>
+            <div class="copyright">
+                <p>&copy; Copyright 2021. All Rights Reserved.</p>
+                <p><a href="mailto: info@pawshaven.org">info@pawshaven.org</a></p>
+                <p1>Created by: 
+                    Tech for Tails Team
+                    Volunteer Page by: Greg
+                </p1>
+            </div>
+
+            <div class="social">
+                <a href="https://www.facebook.com/pawshaven" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+                <a href="https://www.instagram.com/pawshaven" target="_blank"><img src="images/instagram-logo.png" alt="black and white instagram logo"></a>
+                <a href="https://twitter.com/pawshaven" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+            </div>
+        </footer>
         </div>
     </body>
 </html>

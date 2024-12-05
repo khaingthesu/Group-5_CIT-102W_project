@@ -10,9 +10,9 @@
             <link rel="stylesheet" href="css/stylesprint.css" media="print">
             <!--logo icon for the tab bar-->
             <link rel="icon_ori" href="images/icon.png">
-            <link rel="icon" type="img/png" size="32x32" href="images/icon_32.png">
-            <link rel="icon_180" type="img/png" size="180x180" href="images/icon_apple.png">
-            <link rel="icon_192" type="img/png" size="192x192" href="images/icon_android.png">
+            <link rel="icon" type="img/png" sizes="32x32" href="images/icon_32.png">
+            <link rel="icon_180" type="img/png" sizes="180x180" href="images/icon_apple.png">
+            <link rel="icon_192" type="img/png" sizes="192x192" href="images/icon_android.png">
             <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <style>
         body{
@@ -30,145 +30,135 @@
                 <h1>Paws Haven</h1>
             </header>
 <!--------------------------------------------------------------------------------------------------------->
-    <nav>
-         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="adopt_donate.html">ADOPT/DONATE</a></li>
-            <li><a href="volunteer.html">VOLUNTEER</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="adopt_donate.html">ADOPT/DONATE</a></li>
+                    <li><a href="volunteer.html">VOLUNTEER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
 <!--------------------------------------------------------------------------------------------------------->
- 	<main>
- 		<div class="mission">
-                    <img src= "images/group of pets copy.jpg" alt="group of pets">
-        </div>
-        <div class="donations">
-	
-		<section id= container>
-		
-			<h1>Donations</h1>
-			<p>Here at Paws Haven we work hard to get all of our pets adopted and care for them to the best of our ability while they are with us. Any donations you are willing to make to help make these animals happy and healthy are greatly appreciated. We accept monetary donations here on our website and donations of blankets, beds, and toys on location! Thanks for your help and check out our volunteer page to get even more involved!</p>
-				
-			<div id="form">
-                
-			<form class="form-grid"><!-- Start Form -->
-			
-			<fieldset>
-				<legend>Make a Donation!</legend>
-				<p>Please note, all personal information on the form is optional! Leaving your email and/or phone number signs you up for our promotional messages.</p>
-					
-				<div>
-					<label for ="fName">First Name:</label>
-					<input type="text" name="fName" id="fName" optional>
-					
-					<label for="lName">Last Name:</label>
-					<input type="text" name="lName" id="lName" optional>
-					
-					<label for="email">Email:</label>
-					<input type="email" name="email" id="email" optional>
-					
-					<label for="phone">Phone:</label>
-					<input type="tel" id="phone" name="phone" optional>
-				</div>	
-			
-				<div>
-					<label for ="CardNumber">Card Number:</label>
-					<input type="text" name="CardNumber" id="CardNumber" required>
-					
-					<label for="Expiration">Expiration Date:</label>
-					<input type="text" name="Expiration" id="Expiration" required>
-					
-					<label for="SecurityCode">Security Code:</label>
-					<input type="text" name="Security Code" id="Security Code" required>
-					
-					<label for="BillingAddress">Billing Address:</label>
-					<input type="text" id="BillingAddress" name="Billing Address" required>
-				</div>
-					
-				<input type="submit" id="submit" value="Submit" class="btn">
+	<main>
+			<div class="mission">
+				<img src= "images/pets_group.jpg" alt="group of pets">
+			</div>
 
-			</fieldset>
-						
-			</form>
-			</div>		
-		</section>
-		
-		<section id="adoptions">
-		
-			<h2>Adoptions</h2>
-			<p>Adopting a pet is a big commitment. If you are ready to take this step, fill out this simple form and we will contact you about adopting the next member of your family!</p>
-			
-			<div id="form">
-                
+			<div class="donations">
+				<h1>Donations</h1>
+				<p>Here at Paws Haven we work hard to get all of our pets adopted and care for them to the best of our ability while they are with us. Any donations you are willing to make to help make these animals happy and healthy are greatly appreciated. We accept monetary donations here on our website and donations of blankets, beds, and toys on location! Thanks for your help and check out our volunteer page to get even more involved!</p>
+			</div>
+			<div class="card_pic"><img src="images/creditcard.jpg" height="100" width="100" alt="credit card accepted"></div>
+
+			<div class="form">
 				<form class="form-grid"><!-- Start Form -->
-			
 				<fieldset>
-					<legend>Start Your Adoption Journey!</legend>
-					
-					<div>
-						<label for ="fName">First Name:</label>
-						<input type="text" name="fName" id="fName" required>
-					
-						<label for="lName">Last Name:</label>
-						<input type="text" name="lName" id="lName" required>
-					
-						<label for="email">Email:</label>
-						<input type="email" name="email" id="email" required>
-					
-						<label for="phone">Phone:</label>
-						<input type="tel" id="phone" name="phone" required>
-					</div>	
-					
-					<div>
-						<label for ="Occuoation">Occupation:</label>
-						<input type="text" name="Occupation" id="Occupation" required>
-					
-						<p>Do you have kids?</p>
-					
-						<label for="kids"><input type="checkbox" name="kids" id="kids" value="Yes">Yes</>
-						<label for="kids"><input type="checkbox" name="kids" id="kids" value="No">No</>
-					</div>
-					
-					<div>
-						<p>Do you have other pets?</p>
-					
-							<label for="pets"><input type="checkbox" name="pets" id="pets" value="Yes">Yes</>
-							<label for="pets"><input type="checkbox" name="pets" id="pets" value="No">No</>
-					</div>
-					
-					<div>
-						<p>If yes, what kind of pets do you have and how many?</p>
-						<label for ="OtherPets">Other Pets:</label>
-						<textarea id="OterPets" name="OtherPets" rows="5" cols="35"></textarea>					
-						
-					</div>	
-					
-					<div>
-						<p>If you have already visited our animals and have a pet in mind, fill out this section! While we cannot put any animals on hold, already having a connection with the animal you wish to adopt can speed your process up!</p>
-						<label for ="PetType">Kind of Animal:</label>
-						<select name="Pet Type" id="Pet Type">
-						<option value="cat">Cat</option>
-						<option value="dog">Dog</option>
-					</select>
-					
-						<label for ="Name">Name:</label>
-						<input type="text" name="Name" id="Name" optional>
-					
-					</div>
-					
-					<input type="submit" id="submit" value="Submit" class="btn">
+					<legend class="title">Make a Donation!</legend>
 
-				</fieldset>
+						<p>Please note, all personal information on the form is optional! Leaving your email and/or phone number signs you up for our promotional messages.</p>
 						
-			</form>
+						<div class="info">
+							<label for ="fName">First Name:</label>
+							<input type="text" id="fName" name="fName" >
+							
+							<label for="lName">Last Name:</label>
+							<input type="text" id="lName" name="lName" >
+							
+							<label for="email">Email:</label>
+							<input type="email"  id="email" name="email">
+							
+							<label for="phone">Phone:</label>
+							<input type="tel" id="phone" name="phone">
+						</div>	
 			
-			<div>
+						<div>
+							<label for ="CardNumber">Card Number:</label>
+							<input type="text" name="CardNumber" id="CardNumber" required>
+							
+							<label for="Expiration">Expiration Date:</label>
+							<input type="text" name="Expiration" id="Expiration" required>
+							
+							<label for="SecurityCode">Security Code:</label>
+							<input type="text" name="Security Code" id="SecurityCode" required>
+							
+							<label for="BillingAddress">Billing Address:</label>
+							<input type="text" id="BillingAddress" name="Billing Address" required>
+						</div>
+					
+						<input type="submit" id="submit" value="Submit" class="btn">
+				</fieldset>		
+				</form>
+			</div>		
+		
+			<section class="donations">
 			
-			<h2>Next Steps</h2>
+				<h2>Adoptions</h2>
+				<p>Adopting a pet is a big commitment. If you are ready to take this step, fill out this simple form and we will contact you about adopting the next member of your family!</p>
+			</section>
+
+				<div id="form">
+					<form class="form-grid"><!-- Start Form -->
+					<fieldset>
+						<legend class="title">Start Your Adoption Journey!</legend>
+					
+						<div class="info">
+							<label for ="firstName">First Name:</label>
+							<input type="text" name="fName" id="firstName" required>
+						
+							<label for="lastName">Last Name:</label>
+							<input type="text" name="lName" id="lastName" required>
+						
+							<label for="email2">Email:</label>
+							<input type="email" name="email" id="email2" required>
+						
+							<label for="phone2">Phone:</label>
+							<input type="tel" name="phone" id="phone2" required>
+						</div>
+						
+						<div>
+							<label for ="Occupation">Occupation:</label>
+							<input type="text" name="Occupation" id="Occupation" required>
+						
+							<p>Do you have kids?</p>
+							<label for="kids1"><input type="checkbox" name="kids" id="kids1" value="Yes">Yes</label>
+							<label for="kids2"><input type="checkbox" name="kids" id="kids2" value="No">No</label>
+						</div>
+					
+						<div>
+							<p>Do you have other pets?</p>
+							<label for="pets1"><input type="checkbox" name="pets" id="pets1" value="Yes">Yes</label>
+							<label for="pets2"><input type="checkbox" name="pets" id="pets2" value="No">No</label>
+						</div>
+					
+						<div>
+							<p>If yes, what kind of pets do you have and how many?</p>
+							<label for ="OtherPets">Other Pets:</label>
+							<textarea id="OtherPets" name="OtherPets" rows="3" cols="40"></textarea>
+						</div>	
+					
+						<div>
+							<p>If you have already visited our animals and have a pet in mind, fill out this section! While we cannot put any animals on hold, already having a connection with the animal you wish to adopt can speed your process up!
+							</p>
+
+							<label for ="PetType">Kind of Animal:</label>
+								<select name="Pet Type" id="PetType">
+									<option value="cat">Cat</option>
+									<option value="dog">Dog</option>
+									<option value="bunny">Bunny</option>
+								</select>
+							<label for ="Name">Name:</label>
+							<input type="text" name="Name" id="Name">
+		
+						</div>
+					<input type="submit" id="submit2" value="Submit" class="btn">
+					</fieldset>			
+				</form>
+			</div>
 			
-			<p>Now that you have submitted this form, the first step is done! Here is what you can expect in the next steps of your adoption journey:</p>
+			<div class="next">
+			<h1>Next Steps</h1>
+			<h2>Now that you have submitted this form, the first step is done! Here is what you can expect in the next steps of your adoption journey:</h2>
 				<ul>
 					<li>An email confirming your application is being reviewed</li>
 					<li>A follow-up email letting you know if your application is accepted or denied</li>
@@ -177,21 +167,17 @@
 					<li>A home visit may be necessary depending on the animal you are hoping to adopt and if there are additional pets already at home.</li>
 				</ul>
 			</div>
-			
-		</section>
-			 
-              
-            </main>
+		</main>
 <!--------------------------------------------------------------------------------------------------------->
                     
         <footer>
             <div class="copyright">
                 <p>&copy; Copyright 2021. All Rights Reserved.</p>
-                <p><a href="mailto: info@pawshaven.org">info@pawshaven.org</a></p>
-                <p1>Created by: 
-                    Tech for Tails
-                    Members: Ananya, Curtis, Hannah, Greg, Khaing
-                </p1>
+                <p><a href="mailto:info@pawshaven.org">info@pawshaven.org</a></p>
+                <p>Created by: 
+                    Tech for Tails Team
+                    Adoption Page by: Hannah
+                </p>
             </div>
 
             <div class="social">
